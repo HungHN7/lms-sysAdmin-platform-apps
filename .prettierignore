@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.prettierrc
+.eslintrc.cjs
+.editorconfig
+package-lock.json
+package.json
+tsconfig.node.json
+tsconfig.json
+yarn.lock
+README.md
+pnpm-lock.yaml

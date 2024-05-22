@@ -1,0 +1,15 @@
+export { default as Home } from './home';
+export { default as NotFound } from './not-found';
+export { default as AuthorApp } from './author-app';
+export { default as CurriculumApp } from './curriculum-app';
+export { default as Login } from './login';
+export { default as Components } from './components';
+export { default as ForgotPassword } from './forgot-password';
+export { default as ErrorPage } from './error';
+export { default as TenantApp } from './tenant-app';
+export { default as IntegrationApp } from './integration-app';
+export { default as TenantUserRegistration } from './tenant-user-registration';
+export { default as ResetPassword } from './reset-password';
+export { default as FirstTimeResetPassword } from './new-reset-password';
+export { default as ProfilePage } from './profile';
+export { default as ResetPasswordHasReset } from './reset-password-has-reset';

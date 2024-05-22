@@ -1,0 +1,6 @@
+{
+  "name": "platform",
+  "exposes": {
+    "./components": "./src/components/index.ts"
+  }
+}

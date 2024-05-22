@@ -1,0 +1,18 @@
+.select-pro-menu-list::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--background);
+}
+.select-pro-menu-list::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: var(--background);
+}
+.select-pro-menu-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #e2e8f0;
+}
+.select-pro-menu-list::-webkit-scrollbar-thumb:hover {
+  background: #e2e8f0;
+}
+.select-pro-menu-list::-webkit-scrollbar-thumb:active {
+  background: #e2e8f0;
+}
