@@ -46,7 +46,7 @@ export const dataSidebar: IDataSidebar[] = [
   // },
 
   {
-    key: 'program-series',
+    key: 'tenant',
     link: '/sys-admin/tenant-list',
     icon: ProgramSeriesIcon,
     label: 'Tenant Listttttttt',

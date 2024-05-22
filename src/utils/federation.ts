@@ -11,7 +11,6 @@ declare const __webpack_share_scopes__: { default: Scope };
 
 export function loadComponent<T>(scope: string, module: string) {
   return async () => {
-    debugger
     // Initializes the share scope. This fills it with known provided modules from this build and all remotes
     await __webpack_init_sharing__('default');
     const container = window[scope] as Container; // or get the container somewhere else

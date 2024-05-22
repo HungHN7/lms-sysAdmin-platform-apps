@@ -4,7 +4,6 @@ import { loadComponent } from 'src/utils/federation';
 
 const componentCache = new Map();
 export const useFederatedComponent = (remoteUrl: string, scope: string, module: string) => {
-  debugger
   const key = `${remoteUrl}-${scope}-${module}`;
   const [Component, setComponent] = React.useState<any>(null);
 

@@ -9,7 +9,6 @@ const CurriculumApp = () => {
     process.env.CURRICULUM_APP || 'curriculum',
     './Module',
   );
-debugger
   return (
     <React.Suspense fallback={<LoadingPage isLoading />}>
       {errorLoading ? (
